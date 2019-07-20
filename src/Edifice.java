@@ -1,2 +1,7 @@
-public class Edifice {
+public class Edifice implements Building {
+
+    @Override
+    public String getType() {
+        return "edifice";
+    }
 }
